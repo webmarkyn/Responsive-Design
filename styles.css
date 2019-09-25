@@ -76,7 +76,6 @@ nav {
 }
 
 .search-bar {
-    background-image: url(images/icons/icons8-search-64.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -87,7 +86,6 @@ nav {
 }
 
 .menu {
-    background-image: url(images/icons/menu.png);
     height: 40px;
     width: 40px;
     background-size: contain;
@@ -119,7 +117,7 @@ nav {
     flex: 0 1 65%;
     margin-right: 8px;
     margin-bottom: 8px;
-    background-image: linear-gradient(to left top, rgb(0, 0, 0), rgba(255, 0, 0, 0.534)), url(images/hero/main-hero.png);
+    background-image: linear-gradient(to left top, rgb(0, 0, 0), rgba(255, 0, 0, 0.534));
     background-size: 120%;
     background-position: center;
     background-repeat: no-repeat;
@@ -162,19 +160,19 @@ nav {
 }
 
 .main-hero:hover {
-    background-image: linear-gradient(to left top, rgb(0, 0, 0), rgba(255, 0, 0, 0.466)), url(images/hero/main-hero.png);
+    background-image: linear-gradient(to left top, rgb(0, 0, 0), rgba(255, 0, 0, 0.466));
     cursor: pointer;
 }
 
 @media only screen and (max-width: 1000px) {
     .main-hero {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/hero/main-hero.png);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
     .main-hero:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/hero/main-hero.png);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     }
     .main-hero h1,
     .main-hero h5 {
@@ -237,26 +235,26 @@ side hero
 }
 
 .side-hero-1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/hero/sidehero1.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .side-hero-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/hero/sidehero2.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .side-hero-1:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/hero/sidehero1.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)));
     cursor: pointer;
 }
 
 .side-hero-2:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/hero/sidehero2.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     cursor: pointer;
 }
 
@@ -341,49 +339,41 @@ Main container with major content sections
 }
 
 .art-img1 {
-    background-image: url(images/latest/latest1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .art-img2 {
-    background-image: url(images/latest/latest2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .art-img3 {
-    background-image: url(images/latest/latest3.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .art-img4 {
-    background-image: url(images/latest/latest4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .art-img5 {
-    background-image: url(images/latest/latest5.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .art-img6 {
-    background-image: url(images/latest/latest6.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .art-img7 {
-    background-image: url(images/latest/latest7.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .art-img8 {
-    background-image: url(images/latest/latest8.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -576,55 +566,55 @@ Additional topics section
 /* Backgrounds for topic hero */
 
 .topic-hero1 {
-    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(images/topics/topic1.png);
+    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0));
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .topic-hero2 {
-    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(images/topics/topic2.png);
+    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)));
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .topic-hero3 {
-    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(images/topics/topic3.png);
+    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0));
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .topic-hero4 {
-    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(images/topics/topic4.png);
+    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0));
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .topic-hero5 {
-    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(images/topics/topic5.png);
+    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0));
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .topic-hero6 {
-    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(images/topics/topic6.png);
+    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0));
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .topic-hero7 {
-    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(images/topics/topic7.png);
+    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0));
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .topic-hero8 {
-    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(images/topics/topic8.png);
+    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0));
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .topic-hero9 {
-    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(images/topics/topic9.png);
+    background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -661,51 +651,6 @@ Additional topics section
 
 
 /* Thumb background for topic sub */
-
-.thumb1 {
-    background: url(images/latest/latest1.png) 50% 50% no-repeat;
-    background-size: 150%;
-}
-
-.thumb2 {
-    background: url(images/latest/latest2.png) 50% 50% no-repeat;
-    background-size: 200%;
-}
-
-.thumb3 {
-    background: url(images/latest/latest3.png) 50% 50% no-repeat;
-    background-size: 180%;
-}
-
-.thumb4 {
-    background: url(images/latest/latest5.png) 50% 50% no-repeat;
-    background-size: 180%;
-}
-
-.thumb5 {
-    background: url(images/latest/latest6.png) 50% 50% no-repeat;
-    background-size: 180%;
-}
-
-.thumb6 {
-    background: url(images/latest/latest7.png) 50% 50% no-repeat;
-    background-size: 180%;
-}
-
-.thumb7 {
-    background: url(images/latest/latest8.png) 50% 50% no-repeat;
-    background-size: 200%;
-}
-
-.thumb8 {
-    background: url(images/latest/latest1.png) 50% 50% no-repeat;
-    background-size: 150%;
-}
-
-.thumb9 {
-    background: url(images/latest/latest2.png) 50% 50% no-repeat;
-    background-size: 200%;
-}
 
 .topic ul {
     padding-left: 20px;
@@ -774,49 +719,42 @@ h6 {
 }
 
 .deals-img1 {
-    background-image: url(images/topics/deals/deal1.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .deals-img2 {
-    background-image: url(images/topics/deals/deal2.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .deals-img3 {
-    background-image: url(images/topics/deals/deal3.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .deals-img4 {
-    background-image: url(images/topics/deals/deal4.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .deals-img5 {
-    background-image: url(images/topics/deals/deal5.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .deals-img6 {
-    background-image: url(images/topics/deals/deal6.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .deals-img7 {
-    background-image: url(images/topics/deals/deal7.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .deals-img8 {
-    background-image: url(images/topics/deals/deal8.png);
+    ;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -877,7 +815,6 @@ footer {
 .social-banner {
     height: 50px;
     width: auto;
-    background-image: url(images/icons/bannerbuttons.png);
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 30px;
