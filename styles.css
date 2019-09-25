@@ -1,0 +1,408 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section {
+  max-width: 1152px;
+  padding-top: 62px;
+  margin: 0 auto 100px;
+}
+
+/* Header */
+
+header {
+  height: 48px;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-nav {
+  flex: 1;
+  height: 100%;
+}
+
+.nav-list {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list__item {
+  height: 100%;
+  padding: 0 20px;
+  line-height: 48px;
+}
+
+.nav-list__item.nav__search {
+  margin-left: auto;
+  border-left: 1px solid #555;
+}
+
+.nav-list__item a {
+  color: #555;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Main */
+
+.covers {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  margin-bottom: -8px;
+}
+
+.cover.cover-main {
+  flex-basis: 70%;
+  height: 544px;
+  padding-right: 8px;
+}
+
+.small-covers {
+  flex-basis: 30%;
+}
+
+.cover {
+  position: relative;
+  height: 272px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.section-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.section-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 10% 0 25px;
+  background: rgba(0, 0, 0, 0.25) url(images/image-gradient.png);
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 13px;
+  bottom: 8px;
+}
+
+.section-tag {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.cover-main .section-header {
+  font-size: 44px;
+  text-transform: uppercase;
+}
+
+.section-header {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.section-info {
+  margin: 25px 0;
+  opacity: 0.65;
+}
+
+.section-info span {
+  margin-right: 2%;
+}
+
+.section-info span i {
+  margin-right: 1%;
+}
+
+.section-title {
+  color: #f42;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container__item {
+  flex-basis: 25%;
+  padding: 15px 10px;
+  position: relative;
+}
+
+.latest__image {
+  margin-bottom: 15px;
+}
+
+.latest__image img {
+  width: 100%;
+}
+
+.latest__title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.latest__info {
+  font-size: 13px;
+  opacity: 0.65;
+}
+
+.funding__img {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  padding: 10px;
+}
+
+.funding__img img {
+  width: 60px;
+  height: 60px;
+}
+
+.funding {
+  background: #fffaf8;
+}
+
+.funding__title {
+  padding-left: 100px;
+  background: #f42;
+  color: #fff;
+  padding: 10px 0 10px 80px;
+  font-weight: bold;
+}
+
+.funding__money {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 10px 80px;
+  background: rgba(255, 68, 34, 0.08);
+}
+
+.funding__money .amount {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.funding__money .series {
+  text-transform: uppercase;
+}
+
+.funding__tags {
+  padding: 15px 0;
+}
+
+.funding__tags__tag {
+  line-height: 30px;
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+.funding__tags__tag i {
+  margin-right: 5px;
+}
+
+.funding__desc {
+  border-top: 1px solid rgba(206, 173, 168, 0.25);
+  padding: 15px 15px 0;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.section {
+  flex-basis: 33.33%;
+  padding: 10px 20px;
+}
+
+.section .section-desc {
+  right: 16px;
+  bottom: 3px;
+}
+
+.section .section-tag {
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.section .section-header {
+  font-size: 20px;
+  text-transform: unset;
+}
+
+.section .section-info {
+  margin: 10px 0;
+  font-size: 14px;
+  text-transform: unset;
+}
+
+.section__header {
+  position: relative;
+}
+
+.section__add {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 68, 34, 0.06);
+  padding-left: 20px;
+  color: #f42;
+  font-weight: bold;
+}
+
+.add__img img {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+
+.add__tag {
+  display: block;
+  font-weight: normal;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 13px;
+}

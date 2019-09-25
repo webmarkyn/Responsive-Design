@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The next web</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/181f8a8721.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -19,101 +20,201 @@
                 <li class="nav-list__item"><a href="#">Plugged</a></li>
                 <li class="nav-list__item"><a href="#">Fundamentals</a></li>
                 <li class="nav-list__item"><a href="#">Work 2020</a></li>
-                <li class="nav-list__item nav__search"></li>
+                <li class="nav-list__item nav__search"><i class="fas fa-search"></i></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="covers">
+        <div class="covers">
             <article class="cover cover-main">
-                <img src="" alt="" class="cover_image">
-                <div class="cover__desc">
-                    <span class="cover__tag">tech</span>
-                    <h2 class="cover__title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, neque.</h2>
-                    <span class="cover__author">by Rachel Kaser</span>
-                    <span class="cover__time">2 hours ago</span>
-                    <span class="cover__shared">18</span>
+                <img src="images/bg-big.jpg" alt="" class="cover__image section-image">
+                <div class="cover__desc section-desc">
+                    <span class="cover__tag section-tag">tech</span>
+                    <h2 class="cover__title section-header">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, neque.</h2>
+                    <div class="cover__info section-info">
+                        <span class="cover__author">by Rachel Kaser</span>
+                        <span class="cover__time"><i class="far fa-clock"></i>2 hours ago</span>
+                        <span class="cover__shared"><i class="fas fa-share-alt"></i>18</span>
+                    </div>
                 </div>
             </article>
-            <article class="cover">
-                <img src="" alt="" class="cover_image">
-                <div class="cover__desc">
-                    <span class="cover__tag">tech</span>
-                    <h2 class="cover__title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, labore.
-                    </h2>
-                    <span class="cover__author">by Rachel Kaser</span>
-                    <span class="cover__time">2 hours ago</span>
-                    <span class="cover__shared">18</span>
-                </div>
-            </article>
-            <article class="cover">
-                <img src="" alt="" class="cover_image">
-                <div class="cover__desc">
-                    <span class="cover__tag">tech</span>
-                    <h2 class="cover__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, vitae?</h2>
-                    <span class="cover__author">by Rachel Kaser</span>
-                    <span class="cover__time">2 hours ago</span>
-                    <span class="cover__shared">18</span>
-                </div>
-            </article>
-        </section>
+            <div class="small-covers">
+                <article class="cover">
+                    <img src="images/bg-big.jpg" alt="" class="cover__image section-image">
+                    <div class="cover__desc section-desc">
+                        <span class="cover__tag section-tag">tech</span>
+                        <h2 class="cover__title section-header">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, neque.</h2>
+                        <div class="cover__info section-info">
+                            <span class="cover__author">by Rachel Kaser</span>
+                            <span class="cover__time"><i class="far fa-clock"></i>2 hours ago</span>
+                            <span class="cover__shared"><i class="fas fa-share-alt"></i>18</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="cover">
+                    <img src="images/bg-big.jpg" alt="" class="cover__image section-image">
+                    <div class="cover__desc section-desc">
+                        <span class="cover__tag section-tag">tech</span>
+                        <h2 class="cover__title section-header">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, neque.</h2>
+                        <div class="cover__info section-info">
+                            <span class="cover__author">by Rachel Kaser</span>
+                            <span class="cover__time"><i class="far fa-clock"></i>2 hours ago</span>
+                            <span class="cover__shared"><i class="fas fa-share-alt"></i>18</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
         <section class="latests">
-            <h2 class="latests__title">
+            <h2 class="latests__title section-title">
                 Latest news >
             </h2>
-            <div class="latest">
-                <h2 class="latest__title">Latest news</h2>
-                <div class="latest__container">
-                    <article class="latest__article">
-                        <div class="latest__image">
-
-                        </div>
-                        <h3 class="latest__title"></h3>
-                        <div class="latest__info">
-                            <span class="latest__author"></span>
-                            <span class="latest__time"></span>
-                        </div>
-                    </article>
-                </div>
+            <div class="container">
+                <article class="latest__article container__item">
+                    <div class="latest__image">
+                        <img src="images/latest.png" alt="latest">
+                    </div>
+                    <h3 class="latest__title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis esse
+                        veniam a perferendis corrupti. Repudiandae.</h3>
+                    <div class="latest__info">
+                        <span class="latest__author">TNW Deals</span>
+                        <span class="latest__time">4 hours ago</span>
+                    </div>
+                </article>
+                <article class="latest__article container__item">
+                    <div class="latest__image">
+                        <img src="images/latest.png" alt="latest">
+                    </div>
+                    <h3 class="latest__title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis esse
+                        veniam a perferendis corrupti. Repudiandae.</h3>
+                    <div class="latest__info">
+                        <span class="latest__author">TNW Deals</span>
+                        <span class="latest__time">4 hours ago</span>
+                    </div>
+                </article>
+                <article class="latest__article container__item">
+                    <div class="latest__image">
+                        <img src="images/latest.png" alt="latest">
+                    </div>
+                    <h3 class="latest__title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis esse
+                        veniam a perferendis corrupti. Repudiandae.</h3>
+                    <div class="latest__info">
+                        <span class="latest__author">TNW Deals</span>
+                        <span class="latest__time">4 hours ago</span>
+                    </div>
+                </article>
+                <article class="latest__article container__item">
+                    <div class="latest__image">
+                        <img src="images/latest.png" alt="latest">
+                    </div>
+                    <h3 class="latest__title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis esse
+                        veniam a perferendis corrupti. Repudiandae.</h3>
+                    <div class="latest__info">
+                        <span class="latest__author">TNW Deals</span>
+                        <span class="latest__time">4 hours ago</span>
+                    </div>
+                </article>
+                <article class="latest__article container__item">
+                    <div class="latest__image">
+                        <img src="images/latest.png" alt="latest">
+                    </div>
+                    <h3 class="latest__title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis esse
+                        veniam a perferendis corrupti. Repudiandae.</h3>
+                    <div class="latest__info">
+                        <span class="latest__author">TNW Deals</span>
+                        <span class="latest__time">4 hours ago</span>
+                    </div>
+                </article>
             </div>
         </section>
         <section class="fundings">
-            <h3 class="fundings__title">Latest funding rounds on Index.co ></h3>
-            <div class="funding">
-                <div class="funding__title">Curve</div>
-                <div class="funding__money"><span class="amout">$55M</span> <span class="series">series B</span></div>
-                <div class="funding__tags">
-                    <span class="funding__tags__tag">Biotechnology</span>
+            <h3 class="fundings__title section-title">Latest funding rounds on Index.co ></h3>
+            <div class="container">
+                <div class="funding container__item">
+                    <div class="funding__img"><img src="images/funding.jpg" alt="funding-img"></div>
+                    <div class="funding__title">Curve</div>
+                    <div class="funding__money"><span class="amount">$55M</span> <span class="series">series B</span></div>
+                    <div class="funding__tags">
+                        <span class="funding__tags__tag"><i class="fas fa-tag"></i> Biotechnology</span>
+                    </div>
+                    <div class="funding__desc">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos ipsam assumenda molestiae, sed
+                            quis quo sit, distinctio sunt, at reprehenderit vitae ducimus eveniet ullam nulla doloremque
+                            quibusdam eligendi voluptas iste.
+                        </p>
+                    </div>
                 </div>
-                <div class="funding__desc">
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos ipsam assumenda molestiae, sed
-                        quis quo sit, distinctio sunt, at reprehenderit vitae ducimus eveniet ullam nulla doloremque
-                        quibusdam eligendi voluptas iste.
-                    </p>
+                <div class="funding container__item">
+                    <div class="funding__img"><img src="images/funding.jpg" alt="funding-img"></div>
+                    <div class="funding__title">Curve</div>
+                    <div class="funding__money"><span class="amount">$55M</span> <span class="series">series B</span></div>
+                    <div class="funding__tags">
+                        <span class="funding__tags__tag"><i class="fas fa-tag"></i> Biotechnology</span>
+                    </div>
+                    <div class="funding__desc">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos ipsam assumenda molestiae, sed
+                            quis quo sit, distinctio sunt, at reprehenderit vitae ducimus eveniet ullam nulla doloremque
+                            quibusdam eligendi voluptas iste.
+                        </p>
+                    </div>
+                </div>
+                <div class="funding container__item">
+                    <div class="funding__img"><img src="images/funding.jpg" alt="funding-img"></div>
+                    <div class="funding__title">Curve</div>
+                    <div class="funding__money"><span class="amount">$55M</span> <span class="series">series B</span></div>
+                    <div class="funding__tags">
+                        <span class="funding__tags__tag"><i class="fas fa-tag"></i> Biotechnology</span>
+                    </div>
+                    <div class="funding__desc">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos ipsam assumenda molestiae, sed
+                            quis quo sit, distinctio sunt, at reprehenderit vitae ducimus eveniet ullam nulla doloremque
+                            quibusdam eligendi voluptas iste.
+                        </p>
+                    </div>
+                </div>
+                <div class="funding container__item">
+                    <div class="funding__img"><img src="images/funding.jpg" alt="funding-img"></div>
+                    <div class="funding__title">Curve</div>
+                    <div class="funding__money"><span class="amount">$55M</span> <span class="series">series B</span></div>
+                    <div class="funding__tags">
+                        <span class="funding__tags__tag"><i class="fas fa-tag"></i> Biotechnology</span>
+                    </div>
+                    <div class="funding__desc">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos ipsam assumenda molestiae, sed
+                            quis quo sit, distinctio sunt, at reprehenderit vitae ducimus eveniet ullam nulla doloremque
+                            quibusdam eligendi voluptas iste.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="sections">
+        <section class="sections container">
             <div class="section">
-                <h3 class="section__title"></h3>
+                <h2 class="section-title">Tech</h2>
                 <div class="section__header">
-                    <img src="" alt="" class="section_image">
-                    <div class="section__desc">
-                        <span class="section__tag">tech</span>
-                        <h2 class="section__desc__title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                    <img src="images/section.png" alt="section image" class="section_image">
+                    <div class="section__desc section-desc">
+                        <span class="section__tag section-tag">Most popular</span>
+                        <h2 class="section__desc__title section-header">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo,
                             neque.</h2>
-                        <span class="section__desc__author">by Rachel Kaser</span>
-                        <span class="section__desc__time">2 hours ago</span>
-                        <span class="section__desc__shared">18</span>
+                            <div class="section-info">
+                                <span class="section__desc__author">by Rachel Kaser</span>
+                                <span class="section__desc__time">2 hours ago</span>
+                        </div>
                     </div>
                 </div>
-                <div class="section_add">
+                <div class="section__add">
                     <div class="add__desc">
                         <span class="add__tag">Latest</span>
                         <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, enim?</h3>
                     </div>
-                    <div class="add__img"></div>
+                    <div class="add__img">
+                        <img src="images/adddd.jpg" alt="ad image">
+                    </div>
 
                 </div>
                 <div class="section__main">
