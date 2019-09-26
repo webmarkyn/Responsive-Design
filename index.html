@@ -1,599 +1,515 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta charset="utf-8">
+<!--  <meta http-equiv="refresh" content="5">-->
+  <title>The next news</title>
 
-    <title>The Next Step</title>
-    <link rel="stylesheet" href="style.css">
+  <link href="style.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <nav class="nav">
-        <div class="nav-logo">
-            <a href="/" title="The Next Web" data-event-category="Top" data-event-action="Navigation" data-event-label="News" data-event-non-interaction="true">
-                <img alt="The Next Web" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
-            </a>
-            <ul class="nav-logo-popout">
-                <li><a class="is-active" href="/" data-event-category="Top" data-event-action="Navigation" data-event-label="News" data-event-non-interaction="true">News</a></li>
-                <li><a href="/conference/" ref="" target="_blank" data-event-category="Top" data-event-action="Navigation" data-event-label="Conference" data-event-non-interaction="true">Events</a>
-                </li>
-                <li><a href="https://index.co/" rel="noopener" target="_blank" data-event-category="Top" data-event-action="Navigation" data-event-label="Index" data-event-non-interaction="true">Index</a></li>
-                <li><a href="https://tq.co/" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Navigation" data-event-label="TQ" data-event-non-interaction="true">TQ</a></li>
-                <li><a href="https://deals.thenextweb.com/?utm_source=thenextweb.com&amp;utm_medium=referral&amp;utm_campaign=navbar" rel="noopener" target="_blank" data-event-category="Top" data-event-action="Navigation" data-event-label="Deals" data-event-non-interaction="true">Deals</a></li>
-                <li><a href="https://answers.thenextweb.com/" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Navigation" data-event-label="Answers" data-event-non-interaction="true">Answers</a></li>
-                <li><a href="/x/" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Navigation" data-event-label="TNW X" data-event-non-interaction="true">TNW X</a></li>
-            </ul>
-        </div>
-        <ul class="nav-tnw" role="navigation">
-            <li><a class="is-active" href="/" data-event-category="Top" data-event-action="Navigation" data-event-label="News" data-event-non-interaction="true">News</a></li>
-            <li><a href="/conference/" target="_blank" data-event-category="Top" data-event-action="Navigation" data-event-label="Conference" data-event-non-interaction="true">Events ▾</a>
-                <ul class="nav-tnw-dropdown-menu">
-                    <li>
-                        <a href="/hardfork-summit/">Hard Fork Summit</a>
-                    </li>
-                    <li>
-                        <a href="/conference/">TNW2020</a>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="https://index.co/" target="_blank" data-event-category="Top" data-event-action="Navigation" data-event-label="Business" data-event-non-interaction="true">Business ▾</a>
-                <ul class="nav-tnw-dropdown-menu">
-                    <li>
-                        <a href="https://index.co/">Index</a>
-                    </li>
-                    <li>
-                        <a href="/x/">TNW X</a>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="https://answers.thenextweb.com/" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Navigation" data-event-label="Answers" data-event-non-interaction="true">AMAs</a></li>
-            <li><a href="https://tq.co/" rel="noopener" target="_blank" data-event-category="Top" data-event-action="Navigation" data-event-label="TQ" data-event-non-interaction="true">Spaces</a></li>
-            <li><a href="/terms-and-conditions/" rel="noopener" target="_blank" data-event-category="Top" data-event-action="Navigation" data-event-label="Terms and Conditions" data-event-non-interaction="true">Terms &amp; Conditions</a></li>
-            <div class="nav-company">
-                <li><a href="/about" data-event-category="Top" data-event-action="Navigation" data-event-label="About" data-event-non-interaction="true">About</a></li>
-                <li><a href="/team" data-event-category="Top" data-event-action="Navigation" data-event-label="Team" data-event-non-interaction="true">Team</a></li>
-                <li><a href="/advertise" data-event-category="Top" data-event-action="Navigation" data-event-label="Advertise" data-event-non-interaction="true">Advertise</a></li>
-                <li><a href="https://thenextweb.homerun.co/" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Navigation" data-event-label="Jobs" data-event-non-interaction="true">Jobs</a></li>
-                <li><a href="/contact" data-event-category="Top" data-event-action="Navigation" data-event-label="Contact" data-event-non-interaction="true">Contact</a></li>
-            </div>
-         </ul>
-        <div class="u-clear" role="navigation">
-    
-                        <ul class="nav-sections">
-            <li class="nav-sections-section"><a href="/latest" data-event-category="Top" data-event-action="Channels" data-event-label="Latest" data-event-non-interaction="true">Latest</a></li>
-            <li class="nav-sections-section"><a href="/hardfork" data-event-category="Top" data-event-action="Channels" data-event-label="Hard Fork" data-event-non-interaction="true">Hard Fork</a></li>
-            <li class="nav-sections-section"><a href="/plugged" data-event-category="Top" data-event-action="Channels" data-event-label="Plugged" data-event-non-interaction="true">Plugged</a></li>
-            <li class="nav-sections-section"><a href="/adobe-fundamentals" data-event-category="Top" data-event-action="Channels" data-event-label="Fundamentals" data-event-non-interaction="true">Fundamentals</a></li>
-            <li class="nav-sections-section"><a href="/work2030" data-event-category="Top" data-event-action="Channels" data-event-label="Work2030" data-event-non-interaction="true">Work 2030</a></li>
+
+  <section class="main-header">
+
+    <div class="grid nav-grid">
+
+      <div class="left" id="tnw-logo">
+        <a href="#"><img src="lib/img/tnw-logo.png"></a>
+      </div>
+
+      <nav class="nav left" id="nav-first">
+
+        <ul class="right">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
-     
-                     
-             
-            
-            <ul class="nav-icons">
-                <li class="cookieConsent">
-                    <a href="#"><i class="icon icon--cookie"></i></a>
-                    <div class="cookieConsent-popOut">
-                        <header>
-                            <h2>Have a cookie</h2>
-                        </header>
-                        <main>
-                            <p>
-                                TNW uses cookies to personalize content and ads to
-                                make our site easier for you to use.
-                                We do also share that information with third parties for
-                                advertising &amp; analytics.
-                            </p>
-                        </main>
-                        <footer>
-                            <a class="button button--small" onclick="cookiesAccepted();" data-event-category="Top" data-event-action="Cookies" data-event-label="OK" data-event-non-interaction="true">Got it!</a>
-                            <span>
-                                or <a href="/cookie-statement/" data-event-category="Top" data-event-action="Cookies" data-event-label="More information" data-event-non-interaction="true">More info</a>
-                            </span>
-                        </footer>
-                    </div>
-                </li>
-                <li><a id="search--open" href="#"><i class="icon icon--search--dark"></i></a>
-                    <!--
-                    <li><a href="#"><i class="icon icon--user--dark"></i></a>
-                    -->
-                </li><li>
-                    <a class="nav-mob-toggle" id="nav-mob-toggle" href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </a>
-                </li>
-            </ul>
-            <!--
-            <ul class="nav-follow">
-                <li><a  data-event-category="Top" data-event-action="Social" data-event-label="Facebook" data-event-non-interaction="true" href="https://www.facebook.com/thenextweb" title="Follow us on Facebook" target="_blank"  rel="noopener"><i class="icon icon--facebook--dark"></i></a>
-                <li><a  data-event-category="Top" data-event-action="Social" data-event-label="Twitter" data-event-non-interaction="true" href="https://www.twitter.com/thenextweb" title="Follow us on Twitter" target="_blank"  rel="noopener"><i class="icon icon--twitter--dark"></i></a>
-                <li class="nav-follow-extra">
-                    <ul>
-                        <li><a href="https://plus.google.com/+TheNextWeb" title="Follow us on Google+" target="_blank"  rel="noopener"  data-event-category="Top" data-event-action="Social" data-event-label="Google+" data-event-non-interaction="true"><i class="icon icon--google--dark"></i></a>
-                        <li><a href="https://www.linkedin.com/company/the-next-web" title="Follow us on LinkedIn"  rel="noopener" target="_blank"  data-event-category="Top" data-event-action="Social" data-event-label="LinkedIn" data-event-non-interaction="true"><i class="icon icon--linkedin--dark"></i></a>
-                        <li><a href="https://www.youtube.com/user/thenextweb" title="Watch our videos on YouTube"  rel="noopener" target="_blank"  data-event-category="Top" data-event-action="Social" data-event-label="YouTube" data-event-non-interaction="true"><i class="icon icon--youtube--dark"></i></a>
-                        <li><a href="https://instagram.com/thenextweb" title="Follow us on Instagram" target="_blank"  rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Instagram" data-event-non-interaction="true"><i class="icon icon--instagram--dark"></i></a>
-                        <li><a href="http://pinterest.com/thenextweb/" title="Follow us on Pinterest" target="_blank"  rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Pinterest" data-event-non-interaction="true"><i class="icon icon--pinterest--dark"></i></a>
-                        <li><a href="http://feeds2.feedburner.com/thenextweb" title="Read our RSS feed" target="_blank"  rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="RSS" data-event-non-interaction="true"><i class="icon icon--rss--dark"></i></a>
-                    </ul>
-                </li>
-                <li><a data-modal="modalStayTuned" href="#"><i class="icon icon--mail--dark"></i></a>
-                <li class="nav-follow-more nav-follow-toggle"><a href="#"><i class="icon icon--more--dark"></i></a>
-                <li class="nav-follow-less nav-follow-toggle"><a href="#"><i class="icon icon--close"></i></a>
-            </ul>
-            -->
-    
-        </div>
-    
-        <div class="nav-mob">
-            <div class="nav-mob-content">
-                <ul class="nav-mob-follow">
-                    <li><a data-modal="modalStayTuned" href="#"><i class="icon icon--mail--light"></i></a>
-                    </li><li><a href="https://www.facebook.com/thenextweb" title="Follow us on Facebook" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Facebook" data-event-non-interaction="true"><i class="icon icon--facebook--light"></i></a></li><li><a href="https://twitter.com/thenextweb" title="Follow us on Twitter" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Twitter" data-event-non-interaction="true"><i class="icon icon--twitter--light"></i></a></li><li><a href="https://www.linkedin.com/company/the-next-web" title="Follow us on LinkedIn" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="LinkedIn" data-event-non-interaction="true"><i class="icon icon--linkedin--light"></i></a></li><li><a href="https://www.youtube.com/user/thenextweb" title="Watch our videos on YouTube" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="YouTube" data-event-non-interaction="true"><i class="icon icon--youtube--light"></i></a></li><li><a href="https://pinterest.com/thenextweb" title="Follow us on Pinterest" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Pinterest" data-event-non-interaction="true"><i class="icon icon--pinterest--light"></i></a></li><li><a href="https://instagram.com/thenextweb" title="Follow us on Instagram" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Instagram" data-event-non-interaction="true"><i class="icon icon--instagram--light"></i></a></li><li><a href="http://feeds2.feedburner.com/thenextweb" title="Read our RSS feed" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="RSS Feed" data-event-non-interaction="true"><i class="icon icon--rss--light"></i></a></li>            </ul>
-                <div class="u-row">
-                    <div class="u-col-xs-6">
-                        <h5>Sections</h5>
-                        <ul class="nav-mob-menu">
-                            <li><a href="/latest" data-event-category="Top" data-event-action="Sections" data-event-label="Latest" data-event-non-interaction="true">Latest</a></li>
-                            <li><a href="/section/insights" data-event-category="Top" data-event-action="Sections" data-event-label="Insights" data-event-non-interaction="true">Insights</a></li>
-                            <li><a href="/hardfork/" data-event-category="Top" data-event-action="Sections" data-event-label="Hard Fork" data-event-non-interaction="true">Hard Fork</a></li>
-                            <li><a href="/plugged/" data-event-category="Top" data-event-action="Sections" data-event-label="Plugged" data-event-non-interaction="true">Plugged</a></li>
-                            <li><a href="/adobe-fundamentals/" data-event-category="Top" data-event-action="Sections" data-event-label="Fundamentals" data-event-non-interaction="true">Fundamentals</a></li>
-                            <!--li><a href="/iot-lab/" >IoT Lab</a></li-->
-                            <li><a href="/work2030/" data-event-category="Top" data-event-action="Sections" data-event-label="Work2030" data-event-non-interaction="true">Work 2030</a></li>
-                        </ul>
-                    </div>
-                    <div class="u-col-xs-6">
-                        <h5>About TNW</h5>
-                        <ul class="nav-mob-menu">
-                        <li><a href="/about" data-event-category="Top" data-event-action="Navigation" data-event-label="About" data-event-non-interaction="true">About</a></li><li><a href="/team" data-event-category="Top" data-event-action="Navigation" data-event-label="Team" data-event-non-interaction="true">Team</a></li><li><a href="https://tnwads.typeform.com/to/ofLLXt" data-event-category="Top" data-event-action="Navigation" data-event-label="Advertise" data-event-non-interaction="true">Advertise</a></li><li><a href="/jobs" data-event-category="Top" data-event-action="Navigation" data-event-label="Jobs" data-event-non-interaction="true">Jobs</a></li><li><a href="/about#contact" data-event-category="Top" data-event-action="Navigation" data-event-label="Contact" data-event-non-interaction="true">Contact</a></li><li><a href="/terms-and-conditions/" data-event-category="Top" data-event-action="Navigation" data-event-label="Terms &amp; Conditions" data-event-non-interaction="true">Terms &amp; Conditions</a></li>                    </ul>
-                        <h5>TNW Sites</h5>
-                        <ul class="nav-mob-menu">
-                            <li><a href="/" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Navigation" data-event-label="News" data-event-non-interaction="true">News</a></li><li><a href="/conference/" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Navigation" data-event-label="TNW 2020" data-event-non-interaction="true">TNW 2020</a></li><li><a href="/hardfork-decentralized/" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Navigation" data-event-label="Hard Fork Summit" data-event-non-interaction="true">Hard Fork Summit</a></li><li><a href="https://index.co/" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Navigation" data-event-label="Index" data-event-non-interaction="true">Index</a></li><li><a href="https://tq.co/" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Navigation" data-event-label="TQ" data-event-non-interaction="true">TQ</a></li><li><a href="http://deals.thenextweb.com/" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Navigation" data-event-label="Deals" data-event-non-interaction="true">Deals</a></li><li><a href="https://answers.thenextweb.com/" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Navigation" data-event-label="Answers" data-event-non-interaction="true">Answers</a></li>                    </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-        <a data-event-category="Top" data-event-action="Announcement bar" data-event-label="TNW Answers" href="https://thenextweb.com/hardfork-summit" target="_blank" rel="noopener">
-        <div class="nav-message nav-message-answers">
-                In less than three weeks, Hard Fork Summit is taking over Amsterdam. Don't miss it →	</div>
-    </a>
-    
-    </nav>
-<!-- End Header -->
 
-<section class="main">
-    <div class="main1">
-        <div class="date">Saturday - April 1, 2017</div>
-        <a href="#" class="distract">DISTRACT</a>
-        <a href="#" class="big-link">Our always-updated list of the best April Fools’ Day pranks in the tech world [2017 Edition]</a>
-        <div class="author">
-            by <a href="#">Bryan Clark</a> 10 hours ago
+        <ul class="left">
+          <li><a class="first-link" href="#">News</a></li>
+          <li><a href="#">Conference</a></li>
+          <li><a href="#">New York</a></li>
+          <li><a href="#">Index</a></li>
+          <li><a href="#">TQ</a></li>
+          <li><a href="#">Deals</a></li>
+          <li><a href="#">Answers</a></li>
+          <li><a href="#">TNW</a></li>
+        </ul>
+
+      </nav>
+
+      <nav class="nav nav-inverse left" id="nav-second">
+
+        <ul class="right" id="search">
+          <li><a href="#"><img class="nav-icon" src="lib/icons/search.png"></a></li>
+        </ul>
+
+        <ul class="right" id="nav-social">
+          <li><a href="#"><img src="lib/icons/facebook.png"></a></li>
+          <li><a href="#"><img src="lib/icons/twitter.png"></a></li>
+          <li><a href="#"><img src="lib/icons/email.png"></a></li>
+          <li><a href="#"><img src="lib/icons/more.png"></a></li>
+        </ul>
+
+        <ul class="left">
+          <li><a href="#">Latest</a></li>
+          <li><a href="#">Insights</a></li>
+          <li><a href="#">Distract</a></li>
+          <li><a href="#">Full Stack</a></li>
+          <li><a href="#">Investing 2.0</a></li>
+        </ul>
+
+      </nav>
+
+      <nav class="nav" id="nav-collapse">
+        <ul class="right">
+          <li><img class="nav-icon" src="lib/icons/search.png"></li>
+          <li><img class="nav-icon" src="lib/icons/menu.png"></li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <div class="announcement">
+      <p><a href="#">Participate in roundtables in NY hosted by leaders from Buzzfeed, VICE, Foursquare, X.ai, Giphy, Google and more. >> Pick your table now!</a></p>
+    </div>
+
+  </section>
+
+  <section class="cover-articles">
+
+    <div class="grid cover-grid">
+
+      <header class="cover-story" id="cover1">
+        <img class="logo-large" src="lib/img/tnw-logo-lg.png">
+        <article class="cover-story-text">
+
+            <h5>Tech</h5>
+            <h1>Kittens on the blockchain is the future nobody asked for</h1>
+            <p>by <a href="#">Bryan Clark</a> 16 hours ago 228</p>
+          </article>
+      </header>
+
+      <header class="cover-story" id="cover2">
+          <article class="cover-story-text">
+            <h5>Tech</h5>
+            <h1>This heavy metal music made by a machine will rock your human face off</h1>
+            <p>by <a href="#">Tristan Greene</a> 17 hours ago 282</p>
+          </article>
+      </header>
+
+      <header class="cover-story" id="cover3">
+          <article class="cover-story-text">
+            <h5>Gear</h5>
+            <h1>Supercharge your Echo device with these essential Alexa skills</h1>
+            <p>by <a href="#">Tristan Greene</a> 18 hours ago 134</p>
+          </article>
+      </header>
+
+    </div>
+
+  </section>
+
+  <section class="latest-news">
+
+    <header clas="left">
+      <nav class="nav section-nav">
+        <ul>
+          <li><h2 class="section-title">Latest News ></h2></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <div class="grid news-grid grid-4-3-1">
+
+        <header class="latest-story" id="latest-1">
+            <a class="latest-image-wrapper" href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/guy-2609815_1920-405x270.jpg"></a>
+            <a href="#"><h3 class="headline">The first SMS was sent 25 years ago. Here's why it's still relevant.</h3></a>
+            <a class="byline" href="#">Matthew Hughes - 17 hours ago</a>
+        </header>
+        <header class="latest-story" id="latest-2">
+            <a class="latest-image-wrapper" href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/7YH0XPb-540x270.jpg"></a>
+            <a href="#"><h3 class="headline">Learn how to earn a six-figure salary as an Agile and Scrum Project expert for under $30</h3></a>
+            <a class="byline" href="#">TNW Deals - 18 hours ago</a>
+        </header>
+        <header class="latest-story" id="latest-3">
+            <a class="latest-image-wrapper" href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/wHUYP8G-540x270.jpg"></a>
+            <a href="#"><h3 class="headline">Find out why Bitcoin is rocking world markets (and make some serious money) with this training</h3></a>
+            <a class="byline" href="#">TNW Deals - 1 Day ago</a>
+        </header>
+        <header class="latest-story" id="latest-4">
+            <a class="latest-image-wrapper" href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/cryptokitties-hed-540x270.png"></a>
+            <a href="#"><h3 class="headline">Kittens on the blockchain is the future nobody asked for</h3></a>
+            <a class="byline" href="#">Bryan Clark - 2 Days ago</a>
+        </header>
+        <header class="latest-story" id="latest-5">
+            <a class="latest-image-wrapper" href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/roboband-516x270.jpg"></a>
+            <a href="#"><h3 class="headline">This heavy metal music made by a machine will rock your human face off</h3></a>
+            <a class="byline" href="#">Tristan Greene - 2 Days ago</a>
+        </header>
+        <header class="latest-story" id="latest-6">
+            <a class="latest-image-wrapper" href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/alexa-516x270.jpg"></a>
+            <a href="#"><h3 class="headline">Supercharge your Echo device with these essential Alexa skills</h3></a>
+            <a href="#">Tristan Greene - 2 Days ago</a>
+        </header>
+        <header class="latest-story" id="latest-7">
+            <a class="latest-image-wrapper" href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/06/gavel-540x270.jpg"></a>
+            <a href="#"><h3 class="headline">Swedish courts convict 'online rapist' in landmark case</h3></a>
+            <a class="byline" href="#">Rachel kaser - 2 Days ago</a>
+        </header>
+        <header class="latest-story" id="latest-8">
+            <a class="latest-image-wrapper" href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/01/106890351.jpg"></a>
+            <a href="#"><h3 class="headline">Facebook is still relevant, kids</h3></a>
+            <a class="byline" href="#">Ines Kassler - 3 days ago</a>
+        </header>
+
+    </div>
+  </section>
+
+  <section class="funding-news">
+
+    <header>
+      <nav class="nav section-nav">
+
+        <ul class="left">
+          <li><h2 class="section-title">Latest funding rounds on Index.co ></h2></li>
+        </ul>
+        <ul class="right" id="funding-news-right">
+          <li><a class="red-link" href="#">Add Info</a></li>
+          <li><a class="red-link" href="#">Get updates by email</a></li>
+          <li><a class="red-link last-red-link" href="#">See more</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="grid grid-4-3-1">
+
+      <article class="funding-article" id="funding-article-1">
+        <header>
+          <img class="funding-icon" src="https://index.tnwcdn.com/images/909bc7388259590b755707d02989d0618926b970.jpg">
+          <h4>Farmers Business Network</h4>
+          <h4>$110M</h4>
+          <h5>Series D</h5>
+        </header>
+        <div>
+          <ul>
+            <li class="funder">
+              <img src="lib/icons/price-tag.png"> Big Data Analytics, +2
+            </li>
+            <li class="funder">
+              <img src="lib/icons/box.png"> Kleinger Perkins Caufield &amp; Byers, +2
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li class="funder">
+              Farmers Business Network raises $110 million to bring price transparency to agriculture <a href="#">on VentureBeat</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="funding-article" id="funding-article-1">
+        <header>
+          <img class="funding-icon" src="https://index.tnwcdn.com/images/247cb8a07ec2076bd211cf9ddc627ac5474e0c88.png">
+          <h4>Digix</h4>
+          <h4>$1.3M</h4>
+          <h5>Seed Fund</h5>
+        </header>
+        <div>
+          <ul>
+            <li class="funder">
+              <img src="lib/icons/price-tag.png"> Finance
+            </li>
+            <li class="funder">
+              <img src="lib/icons/box.png"> Global Brain
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li class="funder">
+              Digix gets $1.3m seed funding to turn gold into cryptocurrency <a href="#">on Tech in Asia</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="funding-article" id="funding-article-1">
+        <header>
+          <img class="funding-icon" src="https://index.tnwcdn.com/images/7840a09462530b2a1a290960c59f2f7a30e61542.png">
+          <h4>H2O.ai</h4>
+          <h4>$40M</h4>
+          <h5>Series C</h5>
+        </header>
+        <div>
+          <ul>
+            <li class="funder">
+              <img src="lib/icons/price-tag.png"> Open Source
+            </li>
+            <li class="funder">
+              <img src="lib/icons/box.png"> Nvidie Corp.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li class="funder">
+              Nvidia and Wells Fargo lead $40M round into AI startup H2O.ai - SiliconANGLE <a href="#">on SiliconANGLE Media</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="funding-article" id="funding-article-1">
+        <header>
+          <img class="funding-icon" src="https://index.tnwcdn.com/images/4e05e88053a078f82023607a9b0bab62b7f023bf.png">
+          <h4>Reversing Labs</h4>
+          <h4>$25M</h4>
+          <h5>Series A</h5>
+        </header>
+        <div>
+          <ul>
+            <li class="funder"><img src="lib/icons/price-tag.png"> Analytics
+            </li>
+            <li class="funder">
+              <img src="lib/icons/box.png"> Tident Capital Cybersecurity
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li class="funder">
+              JPMorgan co-leads $25M round into threat detection startup ReversingLabs - SiliconANGLE <a href="#">on SiliconANGLE Media</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="other-news">
+
+    <div class="grid grid-3-2-1">
+
+      <article class="other-news-section" id="apps-stories">
+        <h2 class="section-title">Apps &rang;</h2>
+        <header class="featured-story" id="featured-app-story">
+          <article class="story-text">
+            <h5>Most Popular</h5>
+            <h3>Turn your phone into a Google Slides remote control with this Chrome extension</h3>
+            <p><a href="#">Abhimanyu Ghosal</a> 10 hours ago 282</p>
+          </article>
+        </header>
+        <div class="highlighted-story">
+          <div class="highlighted-image right">
+            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Google-Tez-796x398.jpg">
+          </div>
+          <div class="highlighted-text">
+            <h5>Latest</h5>
+            <h3>Slack finally fixed the image upload bug that drove me nuts for months</h3>
+          </div>
+        </div>
+        <div class="stories-list">
+          <ul class="story-list">
+            <li><a>Turn your phone into a Google Slides remote control with this Chrome extensiong</a></li>
+            <li><a>AI-powered language learning promises to fast-track fluency</a></li>
+            <li><a>Microsoft needs to bring this handy scrolling feature to Windowss 10, pront</a></li>
+            <li><a>Google Assistant can locate a handyman near you</a></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="other-news-section" id="gear-stories">
+        <h2 class="section-title">Gear &rang;</h2>
+        <header class="featured-story" id="featured-gear-story">
+          <article class="story-text">
+            <h5>Most Popular</h5>
+            <h3>Samsung wants to hide your phone password in the palm of your hand</h3>
+            <p><a href="#">Abhimanyu Ghosal</a> 1 day ago</p>
+          </article>
+        </header>
+          <div class="highlighted-story">
+            <div class="highlighted-image">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/alexa-796x417.jpg">
+            </div>
+            <div class="highlighted-text">
+              <h5>Latest</h5>
+              <h3>Supercharge your Echo device with these essential Alexa skills</h3>
+            </div>
+          </div>
+          <div class="stories-list">
+            <ul class="story-list">
+              <li><a>Xiaomi's Mi A1 comes with almost everything you could want in a $230 phone</a></li>
+              <li><a>Review: These sexy smartwatches know how to flex Android Wear 2.0</a></li>
+              <li><a>Samsung's graphene batteries could charge your phone in 12 minutes</a></li>
+              <li><a>Apple's latest patent application hints at a folding iPhone</a></li>
+            </ul>
+          </div>
+        
+      </article>
+
+      <article class="other-news-section" id="tech-stories">
+        <h2 class="section-title">Tech &rang;</h2>
+        <header class="featured-story" id="featured-tech-story">
+          <article class="story-text">
+            <h5>Most Popular</h5>
+            <h3>Nvidia's new AI creates disturbingly convincing fake videos</h3>
+            <p><a href="#">Tristan Greene</a> 10 hours ago</p>
+          </article>
+        </header>
+          <div class="highlighted-story">
+            <div class="highlighted-image">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/Untitled-design-1-1-796x597.jpg">
+            </div>
+            <div class="highlighted-text">
+              <h5>Latest</h5>
+              <h3>Literal death machine offers a way to peacefully slip out of existence</h3>
+            </div>
+          </div>
+          <div class="stories-list">
+            <ul class="story-list">
+              <li><a>Nvidia's new AI creates disturbingly convincing fake videos</a></li>
+              <li><a>Amazon tosses animal owners a bone with new 'Pet Profile' feature</a></li>
+              <li><a>5 Chrome extensions for improving your focus at work</a></li>
+              <li><a>Introducing TNW X: Your ultimate tech ecosystem matchmaker</a></li>
+            </ul>
+          </div>
+      </article>
+      
+      <article class="other-news-section" id="creative-stories">
+        <h2 class="section-title">Creative &rang;</h2>
+        <header class="featured-story" id="featured-creative-story">
+          <article class="story-text">
+            <h5>Most Popular</h5>
+            <h3>Brighten up your life with a luxurious portrait of your pet</h3>
+            <p><a href="#">Camille Charluet</a> 10 days ago</p>
+          </article>
+        </header>
+          <div class="highlighted-story">
+            <div class="highlighted-image">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/11/rEEEp7T-796x398.jpg">
+            </div>
+            <div class="highlighted-text">
+              <h5>Latest</h5>
+              <h3>Master digital image editing with this Photoshop mastery package — now under $30</h3>
+            </div>
+          </div>
+          <div class="stories-list">
+            <ul class="story-list">
+              <li><a>Light, lenses, even an external flash... the RevolCam is the all-in-one smartphone pic improvement plan</a></li>
+              <li><a>Control the Adobe Creative Cloud with this all-inclusive training and pay your own price</a></li>
+              <li><a>Animoji karaoke almost makes the iPhone X worth its $1,000 price tag</a></li>
+              <li><a>Tackle the tools to get working as a graphic designer — for under $40</a></li>
+            </ul>
+          </div>
+      </article>
+      
+      <article class="other-news-section" id="contributors-stories">
+        <h2 class="section-title">Contributors &rang;</h2>
+        <header class="featured-story" id="featured-contributors-story">
+          <article class="story-text">
+            <h5>Most Popular</h5>
+            <h3>November in Africa: Facebook’s launch, Black Friday frenzy, and loads of acquisitions</h3>
+            <p><a href="#">Tom Jackson</a> 20 hours ago</p>
+          </article>
+        </header>
+          <div class="highlighted-story">
+            <div class="highlighted-image">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/farm-2852025_1920-796x531.jpg">
+            </div>
+            <div class="highlighted-text">
+              <h5>Latest</h5>
+              <h3>What if financial markets ran on the blockchain?</h3>
+            </div>
+          </div>
+          <div class="stories-list">
+            <ul class="story-list">
+              <li><a>A look into fundraising for aspiring venture capitalists</a></li>
+              <li><a>November in Africa: Facebook’s launch, Black Friday frenzy, and loads of acquisitions</a></li>
+              <li><a>How to revive your failing software project before it’s too late</a></li>
+              <li><a>Here's how you choose between an SDK and an API</a></li>
+            </ul>
+          </div>
+      </article>
+      
+      <article class="other-news-section" id="insight-stories">
+        <h2 class="section-title">Insights &rang;</h2>
+        <header class="featured-story" id="featured-insights-story">
+          <article class="story-text">
+            <h5>Most Popular</h5>
+            <h3>British MPs are ignorant about basic password security, and proud of it</h3>
+            <p><a href="#">Matthe Hughes</a> 21 hours ago</p>
+          </article>
+        </header>
+          <div class="highlighted-story">
+            <div class="highlighted-image">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/cJiVbGZ-796x398.jpg">
+            </div>
+            <div class="highlighted-text">
+              <h5>Latest</h5>
+              <h3>How to make it as a writer in 2018, according to writers</h3>
+            </div>
+          </div>
+          <div class="stories-list">
+            <ul class="story-list">
+              <li><a>Learn how the pros use Wordpress to build the world’s most popular websites for under $50</a></li>
+              <li><a>British MPs are ignorant about basic password security, and proud of it</a></li>
+              <li><a>How texting changed language</a></li>
+              <li><a>The first SMS was sent 25 years ago. Here's why it's still relevant.</a></li>
+            </ul>
+          </div>
+      </article>
+
+    </div>
+
+  </section>
+  
+  <footer class="footer">
+
+    <div class="social-footer">
+      
+        <div class="icon-nav">
+          <ul>
+            <li><img src="lib/icons/facebook-white.png"></li>
+            <li><img src="lib/icons/twitter-white.png"></li>
+            <li><img src="lib/icons/white-youtube.png"></li>
+            <li><img src="lib/icons/instagram-white.png"></li>
+            <li><img src="lib/icons/pinterest-white.png"></li>
+            <li><img src="lib/icons/feed-white.png"></li>
+            <li><img src="lib/icons/email-white.png"></li>
+          </ul>
+        </div>
+
+        <div class="tnw-nav">
+          <ul>
+            <li><a><h5>Events</h5></a></li>
+            <li><a><h5>About</h5></a></li>
+            <li><a><h5>Team</h5></a></li>
+            <li><a><h5>Advertise</h5></a></li>
+            <li><a><h5>Jobs</h5></a></li>
+            <li><a><h5>Contact</h5></a></li>
+          </ul>
         </div>
     </div>
-    <div class="main2">
-        <div class="main21">
-            <a href="#" class="distract">TECH</a>
-            <a href="#" class="second-link">PETA’s crusade against Nintendo’s cow-milking minigame is hypocrisy at its finest</a>
-            <div class="author">
-                by <a href="#">Bryan Clark</a> 7 hours ago
-            </div>
-        </div>
-        <div class="main22">
-            <a href="#" class="distract">WORLD</a>
-            <a href="#" class="second-link">ISPs promise they aren’t going to sell your browsing history (anymore)</a>
-            <div class="author">
-                by <a href="#">Rachel Kaser</a> 8 hours ago
-            </div>
-        </div>
+    
+    <div class="nav site-footer">
+      
+      <p><img src="lib/img/tnw-logo.png"> &copy; 2006-2017 The Next Web B.V. Made with <span class="heart red">&hearts;</span> in Amsterdam. Powered by <img src="lib/img/maxcdn-logo.png"></p>
+      
     </div>
-</section>
-
-
-
-
-    <div class="main-container">
-
-        <!-- LATEST NEWS -->
-
-        <h5 class="titles">Latest news ></h5>
-        <section class="latest-news">
-            <div class="article">
-                <div class="art-img art-img1"></div>
-                <h4>NPR's Invisibilia podcast deals with the invisible forces that shape who we are</h4>
-                <small>Georgina Ustik - 3 hours ago</small>
-            </div>
-
-            <div class="article">
-                <div class="art-img art-img2"></div>
-                <h4>Women are often pushed out of STEM mid-career — here’s how we fix it</h4>
-                <small>Kathy Herring Hayashi - 4 hours ago</small>
-            </div>
-
-            <div class="article">
-                <div class="art-img art-img3"></div>
-                <h4>24-years of worldwide phone sales, mesmerizingly visualized</h4>
-                <small>Callum Booth - 4 hours ago</small>
-            </div>
-
-            <div class="article">
-                <div class="art-img art-img4"></div>
-                <h4>Here’s why Cuba has painfully slow Internet – and what Google’s doing to fix it</h4>
-                <small>Matthew Hughes - 4 hours ago</small>
-            </div>
-
-            <div class="article">
-                <div class="art-img art-img5"></div>
-                <h4>Passt, looking for this week's most discounted Apple products?</h4>
-                <small>Callum Booth - 5 hours ago</small>
-            </div>
-
-            <div class="article">
-                <div class="art-img art-img6"></div>
-                <h4>Ripple partners with Federal Bank in India for cross-border payments</h4>
-                <small>Matthew Beedham - 5 hours ago</small>
-            </div>
-
-            <div class="article">
-                <div class="art-img art-img7"></div>
-                <h4>TNW2019 Daily: Ticket prices rise soon</h4>
-                <small>Ailsa Sherrington - 6 hours ago</small>
-            </div>
-
-            <div class="article">
-                <div class="art-img art-img8"></div>
-                <h4>Prep to become a high-paid Windows server admin with this $50 bundle</h4>
-                <small>TNW Deals - 6 hours ago</small>
-            </div>
-
-        </section>
-
-        <!-- FUNDS -->
-
-        <h5 class="titles">Latest funding rounds on Index.co ></h5>
-        <section class="latest-funding">
-            <div class="funds">
-                <div class="funds-top">
-                    <img class="funds-img" src="images/bg-big.jpg" alt="">
-                    <h2>Lyft</h2>
-                    <h2>$2.2B</h2>
-                    <small>IPO</small>
-                </div>
-                <div class="funds-center">
-                    <h4>📰 Communities, +3</h4>
-                </div>
-                <div class="funds-bottom">
-                    <small>Lyft Raises $2.2B in IPO, Pegging Valuation at Over $24B on economy</small>
-                </div>
-            </div>
-
-            <div class="funds">
-                <div class="funds-top">
-                    <img class="funds-img" src="images/bg-big.jpg" alt="">
-                    <h2>Artiphon</h2>
-                    <h2>$2M</h2>
-                    <small>SEED FUND</small>
-                </div>
-                <div class="funds-center">
-                    <h4>📰 Music, +2</h4>
-                    <h4>📰 Warner Music Group</h4>
-                </div>
-                <div class="funds-bottom">
-                    <small>Artiphon Raises $2M in Seed Funding on FinSMEs</small>
-                </div>
-            </div>
-
-            <div class="funds">
-                <div class="funds-top">
-                    <img class="funds-img" src="images/bg-big.jpg" alt="">
-                    <h2>Inivata</h2>
-                    <h2>$52.6m</h2>
-                    <small>SERIES B</small>
-                </div>
-                <div class="funds-center">
-                    <h4>📰 Biotechnology</h4>
-                    <h4>📰 Johnson and Johnson, +3</h4>
-                </div>
-                <div class="funds-bottom">
-                    <small>Inivata snags $52.6 mln Series B on PE Hub</small>
-                </div>
-            </div>
-
-            <div class="funds">
-                <div class="funds-top">
-                    <img class="funds-img" src="images/bg-big.jpg" alt="">
-                    <h2>1stdibs</h2>
-                    <h2>$76m</h2>
-                    <small>SERIES D</small>
-                </div>
-                <div class="funds-center">
-                    <h4>📰 E-Commerce</h4>
-                    <h4>📰 T. Rowe Price Associates</h4>
-                </div>
-                <div class="funds-bottom">
-                    <small>1stdibs.com lands $76 mln Series D on PE Hub</small>
-                </div>
-            </div>
-        </section>
-
-        <!-- TOPICS -->
-
-        <section class="topics">
-            <section class="topic">
-                <h5 class="titles">Hard Fork ></h5>
-                <div class="topic-hero topic-hero1">
-                    <h5>MOST POPULAR</h5>
-                    <h3>Mt. Gox’ Mark Karpeles to appeal data manipulation conviction</h3>
-                    <small>David Canellis  -  14 hours ago</small>
-                </div>
-                <div class="topic-sub">
-                    <div class="thumb thumb1"></div>
-                    <h5>LATEST</h5>
-                    <h4>EOS and TRON's most used dapps are either gambling or high risk</h4>
-                </div>
-                <ul>
-                    <li>Ripple partners with Federal Bank in India for cross-border payments</li>
-                    <li>Mt. Gox’ Mark Karpeles to appeal data manipulation conviction</li>
-                    <li>This Canadian town is letting residents pay taxes in Bitcoin</li>
-                    <li>Hackers fix 20 security flaws in cryptocurrency-related platforms in 2 weeks</li>
-                    <li>4 things that concern Vitalik Buterin about moving Ethereum to Proof-of-Stake</li>
-                </ul>
-            </section>
-
-            <section class="topic">
-                <h5 class="titles">Apps ></h5>
-                <div class="topic-hero topic-hero2">
-                    <h5>MOST POPULAR</h5>
-                    <h3>Bollywood pushes T-Series ahead of PewDiePie in the race for YouTube’s #1 spot
-                    </h3>
-                    <small>Ivan mehta  -  20 hours ago</small>
-                </div>
-                <div class="topic-sub">
-                    <div class="thumb thumb2"></div>
-                    <h5>LATEST</h5>
-                    <h4>This plotless game set in a Russian apartment fills me with lovely existential despair</h4>
-                </div>
-                <ul>
-                    <li>How to get Twitter's new 'Lights out' dark mode on iOS</li>
-                    <li>How to achieve Inbox Zero with these Gmail search queries</li>
-                    <li>This Canadian town is letting residents pay taxes in Bitcoin</li>
-                    <li>Gmail will now let you interact with messages just like web pages right in your inbox</li>
-                    <li>PSA: Don’t change your birth year to 2007 on Twitter, or you’ll be locked out</li>
-                </ul>
-            </section>
-
-            <section class="topic">
-                <h5 class="titles">Gear ></h5>
-                <div class="topic-hero topic-hero3">
-                    <h5>MOST POPULAR</h5>
-                    <h3>24-years of worldwide phone sales, mesmerizingly visualized</h3>
-                    <small>Scott Gerber  -  19 hours ago</small>
-                </div>
-                <div class="topic-sub">
-                    <div class="thumb thumb3"></div>
-                    <h5>LATEST</h5>
-                    <h4>24-years of worldwide phone sales, mesmerizingly visualized</h4>
-                </div>
-                <ul>
-                    <li>Ripple partners with Federal Bank in India for cross-border payments</li>
-                    <li>Mt. Gox’ Mark Karpeles to appeal data manipulation conviction</li>
-                    <li>Arizer's Solo 2 is an excellent weed vape for stay-at-home cannaisseurs</li>
-                    <li>Hackers fix 20 security flaws in cryptocurrency-related platforms in 2 weeks</li>
-                    <li>4 things that concern Vitalik Buterin about moving Ethereum to Proof-of-Stake</li>
-                </ul>
-            </section>
-
-            <section class="topic">
-                <h5 class="titles">Tech ></h5>
-                <div class="topic-hero topic-hero4">
-                    <h5>MOST POPULAR</h5>
-                    <h3>10 ways companies can effectively use cloud technology to grow</h3>
-                    <small>Tom petty  -  12 hours ago</small>
-                </div>
-                <div class="topic-sub">
-                    <div class="thumb thumb4"></div>
-                    <h5>LATEST</h5>
-                    <h4>EOS and TRON's most used dapps are either gambling or high risk</h4>
-                </div>
-                <ul>
-                    <li>Arizer's Solo 2 is an excellent weed vape for stay-at-home cannaisseurs</li>
-                    <li>Mt. Gox’ Mark Karpeles to appeal data manipulation conviction</li>
-                    <li>This Canadian town is letting residents pay taxes in Bitcoin</li>
-                    <li>Hackers fix 20 security flaws in cryptocurrency-related platforms in 2 weeks</li>
-                    <li>4 things that concern Vitalik Buterin about moving Ethereum to Proof-of-Stake</li>
-                </ul>
-            </section>
-
-            <section class="topic">
-                <h5 class="titles">Creative ></h5>
-                <div class="topic-hero topic-hero5">
-                    <h5>MOST POPULAR</h5>
-                    <h3>Why designers create products that are never meant to be real</h3>
-                    <small>George Canellis  -  5 hours ago</small>
-                </div>
-                <div class="topic-sub">
-                    <div class="thumb thumb5"></div>
-                    <h5>LATEST</h5>
-                    <h4>Sonarworks Reference 4 makes it easy to calibrate recording studio speakers</h4>
-                </div>
-                <ul>
-                    <li>Google's Doodle contest for kids returns with $80K in prizes</li>
-                    <li>We tagged Amsterdam Central Station with LONG BITCOIN SHORT THE BANKERS</li>
-                    <li>This Canadian town is letting residents pay taxes in Bitcoin</li>
-                    <li>Hackers fix 20 security flaws in cryptocurrency-related platforms in 2 weeks</li>
-                    <li>Google's Doodle contest for kids returns with $80K in prizes</li>
-                </ul>
-            </section>
-
-            <section class="topic">
-                <h5 class="titles">Podium ></h5>
-                <div class="topic-hero topic-hero6">
-                    <h5>MOST POPULAR</h5>
-                    <h3>Mt. Gox’ Mark Karpeles to appeal data manipulation conviction</h3>
-                    <small>Phil brocker  -  22 hours ago</small>
-                </div>
-                <div class="topic-sub">
-                    <div class="thumb thumb6"></div>
-                    <h5>LATEST</h5>
-                    <h4>Arizer's Solo 2 is an excellent weed vape for stay-at-home cannaisseurs</h4>
-                </div>
-                <ul>
-                    <li>Ripple partners with Federal Bank in India for cross-border payments</li>
-                    <li>Mt. Gox’ Mark Karpeles to appeal data manipulation conviction</li>
-                    <li>This Canadian town is letting residents pay taxes in Bitcoin</li>
-                    <li>Hackers fix 20 security flaws in cryptocurrency-related platforms in 2 weeks</li>
-                    <li>4 things that concern Vitalik Buterin about moving Ethereum to Proof-of-Stake</li>
-                </ul>
-            </section>
-
-            <section class="topic">
-                <h5 class="titles">Insights ></h5>
-                <div class="topic-hero topic-hero7">
-                    <h5>MOST POPULAR</h5>
-                    <h3>Arizer's Solo 2 is an excellent weed vape for stay-at-home cannaisseurs</h3>
-                    <small>Ricala Dev  -  2 hours ago</small>
-                </div>
-                <div class="topic-sub">
-                    <div class="thumb thumb7"></div>
-                    <h5>LATEST</h5>
-                    <h4>YouTube Music launches in India to battle it out with Spotify et al</h4>
-                </div>
-                <ul>
-                    <li>Ripple partners with Federal Bank in India for cross-border payments</li>
-                    <li>Mt. Gox’ Mark Karpeles to appeal data manipulation conviction</li>
-                    <li>Arizer's Solo 2 is an excellent weed vape for stay-at-home cannaisseurs</li>
-                    <li>Hackers fix 20 security flaws in cryptocurrency-related platforms in 2 weeks</li>
-                    <li>4 things that concern Vitalik Buterin about moving Ethereum to Proof-of-Stake</li>
-                </ul>
-            </section>
-
-            <section class="topic">
-                <h5 class="titles">Launch ></h5>
-                <div class="topic-hero topic-hero8">
-                    <h5>MOST POPULAR</h5>
-                    <h3>10 ways companies can effectively use cloud technology to grow</h3>
-                    <small>John Smith  -  9 hours ago</small>
-                </div>
-                <div class="topic-sub">
-                    <div class="thumb thumb8"></div>
-                    <h5>LATEST</h5>
-                    <h4>Arizer's Solo 2 is an excellent weed vape for stay-at-home cannaisseurs</h4>
-                </div>
-                <ul>
-                    <li>YouTube Music launches in India to battle it out with Spotify et al</li>
-                    <li>Mt. Gox’ Mark Karpeles to appeal data manipulation conviction</li>
-                    <li>Harley-Davidson debuts its all-electric 'LiveWire' motorcycle at CES</li>
-                    <li>BitTorrent just launched a TRON-based cryptocurrency token</li>
-                    <li>Microsoft launches its Clarity web analytics tool for A/B testing and visualizing user sessions</li>
-                </ul>
-            </section>
-
-            <section class="topic">
-                <h5 class="titles">Distract ></h5>
-                <div class="topic-hero topic-hero9">
-                    <h5>MOST POPULAR</h5>
-                    <h3>Mt. Gox’ Mark Karpeles to appeal data manipulation conviction</h3>
-                    <small>David Canellis  -  14 hours ago</small>
-                </div>
-                <div class="topic-sub">
-                    <div class="thumb thumb9"></div>
-                    <h5>LATEST</h5>
-                    <h4>EOS and TRON's most used dapps are either gambling or high risk</h4>
-                </div>
-                <ul>
-                    <li>Bethesda's games are going back to Steam, Epic gets snubbed</li>
-                    <li>How to watch the Indian Premier League 2019 cricket tournament online</li>
-                    <li>This plotless game set in a Russian apartment fills me with lovely existential despair</li>
-                    <li>Google's AI-powered Doodle to celebrate Bach's birthday is its best ever</li>
-                    <li>Disney bolsters Lucasfilm Games for a bright Star Wars future [Updated]</li>
-                </ul>
-            </section>
-        </section>
-
-        <!-- LATEST DEALS -->
-        <h5 class="titles">Latest deals ></h5>
-        <section class="latest-deals">
-            <div class="deal">
-                <div class="deals-img deals-img1"></div>
-                <h4>The AWS Certification Training Master Class Bundle</h4>
-                <h6>$1447</h6>
-                <h5>$59</h5>
-            </div>
-
-            <div class="deal">
-                <div class="deals-img deals-img2"></div>
-                <h4>Comprehensive Six Sigma Certification Collection</h4>
-                <h6>$1649.91</h6>
-                <h5>$35</h5>
-            </div>
-
-            <div class="deal">
-                <div class="deals-img deals-img3"></div>
-                <h4>SERPstash Premium: Lifetime Subscription</h4>
-                <h6>$500</h6>
-                <h5>$24</h5>
-            </div>
-
-            <div class="deal">
-                <div class="deals-img deals-img4"></div>
-                <h4>Complete Microsoft Azure Certification Prep Bundle 2019</h4>
-                <h6>$387</h6>
-                <h5>$19</h5>
-            </div>
-
-            <div class="deal">
-                <div class="deals-img deals-img5"></div>
-                <h4>The Salesforce Certification Training Bundle By Mike Wheeler</h4>
-                <h6>$909.97</h6>
-                <h5>$19.99</h5>
-            </div>
-
-            <div class="deal">
-                <div class="deals-img deals-img6"></div>
-                <h4>Stone River eLearning: Lifetime Membership</h4>
-                <h6>$11500</h6>
-                <h5>$59</h5>
-            </div>
-
-            <div class="deal">
-                <div class="deals-img deals-img7"></div>
-                <h4>How Billionaires, Icons, and World-Class Performers Master Productivity with Tim Ferriss</h4>
-                <h6>$29</h6>
-                <h5>$9.99</h5>
-            </div>
-
-            <div class="deal">
-                <div class="deals-img deals-img8"></div>
-                <h4>Wave.Video: Lifetime Creator Plan</h4>
-                <h6>$495</h6>
-                <h5>$29</h5>
-            </div>
-        </section>
-    </div>
-    <footer>
-        <div class="social">
-            <div class="social-banner"></div>
-            <ul style="list-style-type: none;">
-                <li>EVENTS</li>
-                <li>ABOUT</li>
-                <li>TEAM</li>
-                <li>ADVERTISE</li>
-                <li>JOBS</li>
-                <li>CONTACT</li>
-            </ul>
-        </div>
-        <div class="copyright">
-            <small>
-            The Next Web © 2006–2019 The Next Web B.V. Made with ♥ in Microverse
-        </small>
-
-        </div>
-    </footer>
+ 
+  </footer>
 
 </body>
+
+</html>
