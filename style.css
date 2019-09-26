@@ -342,9 +342,23 @@ Main container with major content sections
   font-size: 12px;
 }
 
+.topic-hero {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  padding-bottom: 10px;
+}
+
 .topic-hero:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+.topic-hero small {
+  color: rgb(173, 173, 173);
+  font-size: 11px;
 }
 
 .article small:hover {
@@ -555,22 +569,8 @@ Main container with major content sections
   margin: 10px 0;
 }
 
-.topic-hero {
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  color: white;
-  padding-bottom: 10px;
-}
-
 .topic-hero > * {
   margin: 2px 10px;
-}
-
-.topic-hero small {
-  color: rgb(173, 173, 173);
-  font-size: 11px;
 }
 
 /* Backgrounds for topic hero */
