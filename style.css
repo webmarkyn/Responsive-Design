@@ -307,10 +307,20 @@ Main container with major content sections
   margin-bottom: 10px;
 }
 
+.topic-sub h4 {
+  padding-top: 5px;
+  font-size: 13px;
+}
+
 .article h4 {
   font-size: 15px;
   padding: 8px 0;
   margin: 0;
+}
+
+.funds-center h4 {
+  font-size: 14px;
+  font-weight: 100;
 }
 
 .article h4:hover {
@@ -318,9 +328,23 @@ Main container with major content sections
   color: rgb(255, 67, 34);
 }
 
+.funds-bottom small {
+  font-size: 11px;
+}
+
 .article small {
   font-size: 12px;
   color: gray;
+}
+
+.funds-top small {
+  color: gray;
+  font-size: 12px;
+}
+
+.topic-hero:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .article small:hover {
@@ -463,11 +487,6 @@ Main container with major content sections
   margin-bottom: 1px;
 }
 
-.funds-top small {
-  color: gray;
-  font-size: 12px;
-}
-
 .funds-img {
   height: 75px;
   width: 75px;
@@ -482,28 +501,19 @@ Main container with major content sections
   background-color: rgba(255, 67, 34, 0.027);
 }
 
-.funds-center h4 {
-  font-size: 14px;
-  font-weight: 100;
-}
-
 .funds-bottom {
   flex: 0 1 33.33%;
   padding: 10px;
   background-color: rgba(255, 67, 34, 0.027);
 }
 
-.funds-bottom small {
-  font-size: 11px;
-}
-
 @media only screen and (max-width: 1000px) {
-  .funds:last-of-type {
-    display: none;
-  }
-
   .funds {
     flex: 0 1 33.33%;
+  }
+
+  .funds:last-of-type {
+    display: none;
   }
 }
 
@@ -552,11 +562,6 @@ Main container with major content sections
   justify-content: flex-end;
   color: white;
   padding-bottom: 10px;
-}
-
-.topic-hero:hover {
-  cursor: pointer;
-  text-decoration: underline;
 }
 
 .topic-hero > * {
@@ -642,11 +647,6 @@ Main container with major content sections
   font-weight: 100;
 }
 
-.topic-sub h4 {
-  padding-top: 5px;
-  font-size: 13px;
-}
-
 .thumb {
   height: 100px;
   width: 100px;
@@ -663,6 +663,12 @@ Main container with major content sections
 .topic li {
   border-bottom: 1px solid rgba(128, 128, 128, 0.144);
   padding: 10px 0;
+}
+
+.social ul li {
+  margin: 0 10px;
+  color: rgb(221, 221, 221);
+  font-size: 10px;
 }
 
 .topic li:hover {
@@ -778,12 +784,6 @@ footer {
   align-content: center;
   justify-content: center;
   padding-right: 25px;
-}
-
-.social ul li {
-  margin: 0 10px;
-  color: rgb(221, 221, 221);
-  font-size: 10px;
 }
 
 .social ul li:hover {
