@@ -40,7 +40,6 @@ var,
 b,
 u,
 i,
-center,
 dl,
 dt,
 dd,
@@ -696,7 +695,6 @@ img[src*="icons"] {
 .funder * {
   display: inline;
   vertical-align: text-top;
-  margin-bottom: 1rem;
 }
 
 .funder img {
@@ -718,8 +716,6 @@ img[src*="icons"] {
 }
 
 /* Other News Section */
-
-.other-news-section {}
 
 .grid-3-2-1 {
   grid-gap: 1rem;
