@@ -253,9 +253,6 @@ img[src*="icons"] {
 }
 
 /*  General Rules  */
-.left {
-  float: left;
-}
 
 .left li {
   margin-left: 1.2rem;
@@ -957,7 +954,7 @@ h3 {
 }
 
 .section-title {
-  color: #F42;
+  color: #f42;
   cursor: pointer;
 }
 
