@@ -261,6 +261,25 @@ img[src*="icons"] {
   margin-left: 1.2rem;
 }
 
+.right li {
+  margin: 0 1.2rem 0 0;
+}
+
+.nav ul li {
+  vertical-align: middle;
+}
+
+.story-list li {
+  display: list-item;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.icon-nav li {
+  margin: 0 0.4rem;
+}
+
 .left li:first-child {
   margin-left: 2rem;
 }
@@ -271,10 +290,6 @@ img[src*="icons"] {
 
 .right ul {
   margin-left: 1.2rem;
-}
-
-.right li {
-  margin: 0 1.2rem 0 0;
 }
 
 .clear {
@@ -307,12 +322,56 @@ img[src*="icons"] {
   width: 100%;
 }
 
-.nav ul li {
-  vertical-align: middle;
+.announcement a {
+  font-size: 1.3rem;
+}
+
+.latest-story a {
+  display: block;
+}
+
+.funder a {
+  vertical-align: bottom;
+}
+
+.story-text a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.highlighted-story {
+  position: relative;
+  height: 96px;
+  padding-left: 1rem;
+  color: #f42;
+  background-color: rgba(255, 68, 34, 0.06);
+}
+
+.story-list a {
+  color: black;
+  opacity: 0.6;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
 }
 
 .nav ul li a {
   opacity: 0.5;
+}
+
+.cover-story-text p a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.funder a:hover {
+  color: black;
+}
+
+.highlighted-story a:hover {
+  text-decoration: underline;
+}
+
+.story-list a:hover {
+  opacity: 1;
+  transition: opacity 0.2s;
 }
 
 .nav ul li a:hover {
@@ -371,16 +430,16 @@ img[src*="icons"] {
   padding-left: 2rem;
 }
 
-.announcement a {
-  font-size: 1.3rem;
-}
-
 .announcement p,
 .announcement a {
   opacity: 1;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+
+.section-nav li:first-child {
+  margin-left: 0;
 }
 
 #search li {
@@ -507,10 +566,6 @@ img[src*="icons"] {
   line-height: 1.6rem;
 }
 
-.cover-story-text p a:hover {
-  color: rgba(255, 255, 255, 1);
-}
-
 #cover1 {
   grid-area: cover1;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.5) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/cryptokitties-hed-796x398.png) no-repeat;
@@ -572,10 +627,6 @@ img[src*="icons"] {
   height: auto;
 }
 
-.latest-story a {
-  display: block;
-}
-
 .headline {
   opacity: 1;
 }
@@ -632,10 +683,6 @@ img[src*="icons"] {
   line-height: 3.2rem;
 }
 
-.section-nav li:first-child {
-  margin-left: 0;
-}
-
 /* Funding Section */
 
 .funding-article {
@@ -664,6 +711,10 @@ img[src*="icons"] {
 
 .funding-article header {
   background: linear-gradient(to bottom, #f42 0%, #f42 41%, rgba(255, 68, 34, 0.08) 40%, rgba(255, 68, 34, 0.08) 100%);
+}
+
+.social-footer div {
+  padding: 1rem;
 }
 
 .funding-article div:first-of-type {
@@ -699,14 +750,6 @@ img[src*="icons"] {
 
 .funder img {
   padding-right: 0.5rem;
-}
-
-.funder a {
-  vertical-align: bottom;
-}
-
-.funder a:hover {
-  color: black;
 }
 
 @media screen and (max-width: 1024px) {
@@ -758,18 +801,6 @@ img[src*="icons"] {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.story-text a:hover {
-  color: rgba(255, 255, 255, 1);
-}
-
-.highlighted-story {
-  position: relative;
-  height: 96px;
-  padding-left: 1rem;
-  color: #f42;
-  background-color: rgba(255, 68, 34, 0.06);
-}
-
 .highlighted-story h3 {
   font-size: 1.6rem;
   margin-top: 0;
@@ -777,10 +808,6 @@ img[src*="icons"] {
 
 .highlighted-story a {
   opacity: 1;
-}
-
-.highlighted-story a:hover {
-  text-decoration: underline;
 }
 
 .highlighted-image {
@@ -810,25 +837,6 @@ img[src*="icons"] {
 .story-list {
   list-style-type: disc;
   color: red;
-}
-
-.story-list li {
-  display: list-item;
-  cursor: pointer;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.story-list a {
-  color: black;
-  opacity: 0.6;
-  font-size: 1.3rem;
-  line-height: 1.6rem;
-}
-
-.story-list a:hover {
-  opacity: 1;
-  transition: opacity 0.2s;
 }
 
 #featured-app-story {
@@ -888,14 +896,6 @@ img[src*="icons"] {
   background-color: rgb(19, 19, 19);
   padding: 4.2rem 0 2.8rem 0;
   cursor: pointer;
-}
-
-.social-footer div {
-  padding: 1rem;
-}
-
-.icon-nav li {
-  margin: 0 0.4rem;
 }
 
 .icon-nav img {
