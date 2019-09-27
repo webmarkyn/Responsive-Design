@@ -265,10 +265,6 @@ img[src*="icons"] {
   margin: 0 1.2rem 0 0;
 }
 
-.nav ul li {
-  vertical-align: middle;
-}
-
 .story-list li {
   display: list-item;
   cursor: pointer;
@@ -278,6 +274,10 @@ img[src*="icons"] {
 
 .icon-nav li {
   margin: 0 0.4rem;
+}
+
+.nav ul li {
+  vertical-align: middle;
 }
 
 .left li:first-child {
@@ -322,16 +322,23 @@ img[src*="icons"] {
   width: 100%;
 }
 
-.announcement a {
-  font-size: 1.3rem;
-}
-
 .latest-story a {
   display: block;
 }
 
 .funder a {
   vertical-align: bottom;
+}
+
+.story-list a {
+  color: black;
+  opacity: 0.6;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+}
+
+.nav ul li a {
+  opacity: 0.5;
 }
 
 .story-text a:hover {
@@ -346,21 +353,6 @@ img[src*="icons"] {
   background-color: rgba(255, 68, 34, 0.06);
 }
 
-.story-list a {
-  color: black;
-  opacity: 0.6;
-  font-size: 1.3rem;
-  line-height: 1.6rem;
-}
-
-.nav ul li a {
-  opacity: 0.5;
-}
-
-.cover-story-text p a:hover {
-  color: rgba(255, 255, 255, 1);
-}
-
 .funder a:hover {
   color: black;
 }
@@ -372,6 +364,10 @@ img[src*="icons"] {
 .story-list a:hover {
   opacity: 1;
   transition: opacity 0.2s;
+}
+
+.cover-story-text p a:hover {
+  color: rgba(255, 255, 255, 1);
 }
 
 .nav ul li a:hover {
@@ -676,13 +672,6 @@ img[src*="icons"] {
   margin: 2rem 0 3rem 0;
 }
 
-.section-nav li {
-  margin: 30 0;
-  color: #f42;
-  vertical-align: middle;
-  line-height: 3.2rem;
-}
-
 /* Funding Section */
 
 .funding-article {
@@ -804,10 +793,6 @@ img[src*="icons"] {
 .highlighted-story h3 {
   font-size: 1.6rem;
   margin-top: 0;
-}
-
-.highlighted-story a {
-  opacity: 1;
 }
 
 .highlighted-image {
