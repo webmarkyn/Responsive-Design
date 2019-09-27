@@ -906,3 +906,172 @@ img[src*="icons"] {
   font-size: 1.4rem;
   color: #f42;
 }
+
+div,
+h2,
+h3,
+a,
+img,
+ul,
+li,
+header,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 10px;
+}
+
+header,
+nav,
+section {
+  display: block;
+  clear: both;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  font-family: "Avalon Bold", sans-serif;
+  font-weight: bold;
+}
+
+h3,
+a,
+li {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  margin: 1rem 0;
+}
+
+.section-title {
+  color: #F42;
+  cursor: pointer;
+}
+
+.section-title:hover {
+  color: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.byline {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.byline:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+.grid {
+  position: relative;
+  display: grid;
+}
+
+.nav {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.nav ul li {
+  vertical-align: middle;
+}
+
+.latest-news {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 115rem;
+}
+
+.grid-4-3-1 {
+  grid-gap: 1rem;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.latest-story img {
+  position: relative;
+  left: 50%;
+  margin-left: -50%;
+  width: 100%;
+  height: auto;
+}
+
+.latest-story a {
+  display: block;
+}
+
+.headline {
+  opacity: 1;
+}
+
+.latest-image-wrapper {
+  width: 100%;
+  height: 13.5rem;
+  overflow: hidden;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid-4-3-1 {
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .grid-4-3-1 {
+    grid-template-rows: repeat(8, auto);
+    grid-template-columns: 1fr;
+  }
+
+  .latest-image-wrapper {
+    width: 72px;
+    height: 72px;
+    float: left;
+    margin-right: 2rem;
+  }
+
+  .latest-story img {
+    left: 50%;
+    margin-left: -50%;
+    height: 100%;
+    width: auto;
+  }
+}
+
+.section-nav {
+  margin: 2rem 0 3rem 0;
+}
+
+.section-nav li {
+  margin: 30 0;
+  color: #f42;
+  vertical-align: middle;
+  line-height: 3.2rem;
+}
+
+.section-nav li:first-child {
+  margin-left: 0;
+}
