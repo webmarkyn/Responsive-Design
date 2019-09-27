@@ -189,6 +189,11 @@ h3 {
   margin: 1rem 0;
 }
 
+.section-title {
+  color: #f42;
+  cursor: pointer;
+}
+
 .section-title:hover {
   color: black;
 }
@@ -903,11 +908,6 @@ nav,
 section {
   display: block;
   clear: both;
-}
-
-.section-title {
-  color: #f42;
-  cursor: pointer;
 }
 
 .latest-news {
