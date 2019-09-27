@@ -426,14 +426,6 @@ img[src*="icons"] {
   padding-left: 2rem;
 }
 
-.announcement p,
-.announcement a {
-  opacity: 1;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
 .section-nav li:first-child {
   margin-left: 0;
 }
