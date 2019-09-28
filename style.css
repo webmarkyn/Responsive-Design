@@ -984,7 +984,7 @@ a:hover {
 h2 {
   font-family: Avalon, sans-serif;
   font-size: 28px;
-  letter-spacing: -.015em;
+  letter-spacing: -0.015em;
 }
 
 h2 {
@@ -992,7 +992,7 @@ h2 {
   line-height: 1.1;
 }
 
-h4 { 
+h4 {
   font-weight: 700;
   line-height: 1.25;
 }
@@ -1001,7 +1001,7 @@ h4 {
   font-size: 14px;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   h2 {
     font-size: 28px;
   }
@@ -1031,7 +1031,7 @@ h4 {
   max-width: 100%;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .u-row {
     margin: -10px;
   }
@@ -1047,7 +1047,7 @@ h4 {
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
   .u-row {
     margin: -12px;
   }
@@ -1070,7 +1070,7 @@ h4 {
 
 .latest h2 {
   margin-bottom: 24px;
-  color: #f42; 
+  color: #f42;
 }
 
 .latest h2 a::after {
@@ -1085,17 +1085,17 @@ h4 {
   width: 16px;
 }
 
-.latest h2 a:hover:after {
+.latest h2 a:hover::after {
   background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23000" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .latest {
     margin-bottom: 3em;
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
   .latest {
     margin-bottom: 4em;
     padding-left: 380px;
@@ -1104,7 +1104,7 @@ h4 {
 }
 
 .lazy {
-  transition: .4s ease;
+  transition: 0.4s ease;
   opacity: 0;
   will-change: opacity;
 }
@@ -1141,7 +1141,7 @@ h4 {
 }
 
 .story-title a:hover {
-  box-shadow: inset 0 -1px 0 rgba(255, 68, 34, .25);
+  box-shadow: inset 0 -1px 0 rgba(255, 68, 34, 0.25);
   color: #f42;
 }
 
@@ -1163,14 +1163,14 @@ h4 {
   float: left;
 }
 
-.story-byline li:after {
+.story-byline li::after {
   content: "\B7";
   display: block;
   float: right;
   margin: 0 4px;
 }
 
-.story-byline li:last-child:after {
+.story-byline li:last-child::after {
   display: none;
 }
 
@@ -1182,7 +1182,7 @@ h4 {
   color: #555;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .story--smallMobile {
     min-height: 72px;
     padding-left: 88px;
@@ -1208,7 +1208,7 @@ h4 {
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
   .story .story-title {
     font-size: 16px;
     line-height: 20px;
@@ -1248,8 +1248,8 @@ section {
 }
 
 *,
-:after,
-:before {
+::after,
+::before {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   outline: none;
@@ -1257,7 +1257,6 @@ section {
 }
 
 a {
-
   text-decoration: none;
 }
 
@@ -1268,7 +1267,7 @@ a:hover {
 h2 {
   font-family: Avalon, sans-serif;
   font-size: 28px;
-  letter-spacing: -.015em;
+  letter-spacing: -0.015em;
 }
 
 h2 {
@@ -1277,7 +1276,6 @@ h2 {
 }
 
 h4 {
- 
   font-weight: 700;
   line-height: 1.25;
 }
@@ -1286,7 +1284,7 @@ h4 {
   font-size: 14px;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   h2 {
     font-size: 28px;
   }
@@ -1316,7 +1314,7 @@ h4 {
   max-width: 100%;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .u-row {
     margin: -10px;
   }
@@ -1332,7 +1330,7 @@ h4 {
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
   .u-row {
     margin: -12px;
   }
@@ -1359,7 +1357,7 @@ h4 {
   color: #f24;
 }
 
-.deals-header:after {
+.deals-header::after {
   clear: both;
   content: "";
   display: block;
@@ -1370,7 +1368,7 @@ h4 {
   line-height: 32px;
 }
 
-.deals-header h2 a:after {
+.deals-header h2 a::after {
   background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
   background-size: 16px 16px;
   content: "";
@@ -1382,7 +1380,7 @@ h4 {
   width: 16px;
 }
 
-.deals-header h2 a:hover:after {
+.deals-header h2 a:hover::after {
   background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23000" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
 }
 
@@ -1392,7 +1390,7 @@ h4 {
   margin-top: 11px;
 }
 
-.deals-header-more:after {
+.deals-header-more::after {
   content: "|";
   margin-left: 10px;
   margin-right: 10px;
@@ -1401,11 +1399,11 @@ h4 {
   position: absolute;
 }
 
-.deals-header-more:hover:after {
+.deals-header-more:hover::after {
   color: #f42;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .deals {
     margin-bottom: 3em;
   }
@@ -1416,14 +1414,14 @@ h4 {
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
   .deals {
     margin-bottom: 4em;
   }
 }
 
 .lazy {
-  transition: .4s ease;
+  transition: 0.4s ease;
   opacity: 0;
   will-change: opacity;
 }
@@ -1460,7 +1458,7 @@ h4 {
 }
 
 .story-title a:hover {
-  box-shadow: inset 0 -1px 0 rgba(255, 68, 34, .25);
+  box-shadow: inset 0 -1px 0 rgba(255, 68, 34, 0.25);
   color: #f42;
 }
 
@@ -1480,7 +1478,7 @@ h4 {
   vertical-align: baseline;
 }
 
-.story--deal .story-dealPrice:after {
+.story--deal .story-dealPrice::after {
   clear: both;
   content: "";
   display: block;
@@ -1496,7 +1494,7 @@ h4 {
   font-size: 14px;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .story--smallMobile {
     min-height: 72px;
     padding-left: 88px;
@@ -1518,7 +1516,7 @@ h4 {
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .story--deal .story-image {
     background-position: 0 100%;
     padding-top: 74.5%;
@@ -1554,7 +1552,7 @@ h4 {
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
   .story .story-title {
     font-size: 16px;
     line-height: 20px;
