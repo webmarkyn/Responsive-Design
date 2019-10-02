@@ -771,8 +771,8 @@ h4 {
 }
 
 *,
-::after,
-::before {
+*::after,
+*::before {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   outline: 0;
