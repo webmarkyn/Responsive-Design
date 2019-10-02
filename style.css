@@ -155,10 +155,6 @@ table {
   src: url(lib/fonts/shentox-regular.otf);
 }
 
-html {
-  box-sizing: border-box;
-}
-
 h1,
 h2 {
   font-family: "Avalon Bold", sans-serif;
@@ -963,15 +959,6 @@ section {
   display: block;
 }
 
-*,
-::after,
-::before {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  outline: 0;
-  text-rendering: optimizeLegibility;
-}
-
 a:hover {
   color: #000;
 }
@@ -1410,7 +1397,6 @@ h4 {
     margin-top: 10px;
   }
 }
-
 
 .lazy {
   transition: 0.4s ease;
