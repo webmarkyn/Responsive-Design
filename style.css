@@ -99,6 +99,23 @@ section {
   clear: both;
 }
 
+a,
+div,
+h2,
+h4,
+header,
+li,
+section,
+span,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
 body {
   line-height: 1;
   color: #555;
@@ -116,6 +133,15 @@ ul {
 blockquote,
 q {
   quotes: none;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  outline: 0;
+  text-rendering: optimizeLegibility;
 }
 
 blockquote ::after,
@@ -261,6 +287,11 @@ img[src*=icons] {
   margin: 0 0.4rem;
 }
 
+.story-byline li {
+  display: block;
+  float: left;
+}
+
 .nav ul li {
   vertical-align: middle;
 }
@@ -336,10 +367,6 @@ a:hover {
 
 .story-byline a {
   color: #aaa;
-}
-
-a:hover {
-  color: #000;
 }
 
 .nav ul li a {
@@ -690,23 +717,6 @@ a:hover {
   height: 6rem;
   width: 6rem;
   margin-right: 1rem;
-}
-
-a,
-div,
-h2,
-h4,
-header,
-li,
-section,
-span,
-ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
 }
 
 .funding-article div,
@@ -1072,10 +1082,6 @@ h2 {
   color: #f42;
 }
 
-.deals-header h2 a:hover::after {
-  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23000" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
-}
-
 .latest h2 a::after {
   background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
   background-size: 16px 16px;
@@ -1139,11 +1145,6 @@ h2 {
   clear: both;
   content: "";
   display: block;
-}
-
-.story-byline li {
-  display: block;
-  float: left;
 }
 
 .story-byline li::after {
@@ -1248,6 +1249,10 @@ h2 {
 .deals-header h2 {
   float: left;
   line-height: 32px;
+}
+
+.deals-header h2 a:hover::after {
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23000" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
 }
 
 .deals-header h2 a::after {
