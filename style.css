@@ -719,14 +719,14 @@ a:hover {
   margin-right: 1rem;
 }
 
+header {
+  display: block;
+}
+
 .funding-article div,
 .funding-article header {
   clear: both;
   padding: 1rem;
-}
-
-header {
-  display: block;
 }
 
 .funding-article header {
