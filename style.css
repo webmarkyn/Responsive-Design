@@ -725,8 +725,7 @@ a:hover {
   padding: 1rem;
 }
 
-header,
-section {
+header {
   display: block;
 }
 
@@ -1082,6 +1081,18 @@ h2 {
   color: #f42;
 }
 
+.deals-header h2 a::after {
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
+  background-size: 16px 16px;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  margin-left: 4px;
+  position: relative;
+  top: 0;
+  width: 16px;
+}
+
 .latest h2 a::after {
   background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
   background-size: 16px 16px;
@@ -1253,18 +1264,6 @@ h2 {
 
 .deals-header h2 a:hover::after {
   background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23000" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
-}
-
-.deals-header h2 a::after {
-  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
-  background-size: 16px 16px;
-  content: "";
-  display: inline-block;
-  height: 16px;
-  margin-left: 4px;
-  position: relative;
-  top: 0;
-  width: 16px;
 }
 
 .deals-header-more {
