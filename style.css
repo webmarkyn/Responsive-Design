@@ -723,13 +723,9 @@ header {
   display: block;
 }
 
-.funding-article div,
 .funding-article header {
   clear: both;
   padding: 1rem;
-}
-
-.funding-article header {
   background: linear-gradient(to bottom, #f42 0, #f42 41%, rgba(255, 68, 34, 0.08) 40%, rgba(255, 68, 34, 0.08) 100%);
 }
 
